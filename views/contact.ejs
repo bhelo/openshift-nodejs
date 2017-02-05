@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+  <head>
+     <% include shared/head %>
+  </head>
+  <body>
+	<div class="fh5co-loader"></div>
+	
+	<div id="page">
+
+         <% include shared/navbar %>
+         
+          <!-- Main Content start-->
+            <div class="content">
+               <div class="container">
+                  <div class="row">
+                     <div class="col-lg-8 col-md-8 col-sm-6 col-xs-12" id="contact-form">
+                        <h3 class="title">发电子邮件给我们</h3>
+                        <p>
+                           如果对我们的产品或服务有兴趣，或者想了解更多可以给我们发送电子邮件，我们会尽快回复。欢迎前来咨询！
+                        </p>
+                        
+                        <div class="divider"></div>
+                        <form method="post" class="reply" id="contact">
+                           <fieldset>
+                              <div class="row">
+                                 <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                    <label>名字: <span>*</span></label>
+                                    <input class="form-control" id="name" name="name" type="text" value="" required>
+                                 </div>
+                                 <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                    <label>邮箱: <span>*</span></label>
+                                    <input class="form-control" type="email" id="email" name="email" value="" required>
+                                 </div>
+                              </div>
+                              <div class="row">
+                                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                    <label>主题: <span>*</span></label>
+                                    <input class="form-control" id="subject" name="subject" type="text" value="" required>
+                                 </div>
+                              </div>
+                              <div class="row">
+                                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                    <label>内容: <span>*</span></label>
+                                    <textarea class="form-control" id="text" name="text" rows="3" cols="40" required></textarea>
+                                 </div>
+                              </div>
+                           </fieldset>
+                           <button class="btn-normal btn-color submit  bottom-pad" type="submit">发送</button>
+                           <div class="success alert-success alert" style="display:none">您的信息发送成功.</div>
+                           <div class="error alert-error alert" style="display:none">E-mail 地址必须正确内容不少于10字节.</div>
+                           <div class="clearfix">
+                           </div>
+                        </form>
+                     </div>
+                     <div class="col-lg-4 col-md-4 col-xs-12 col-sm-6">
+                        <div class="address widget">
+                           <h3 class="title">通讯地址</h3>
+                           <ul class="contact-us">
+                              <li>
+                                 <i class="icon-map-marker"></i>
+                                 <p>
+                                    <strong>地址:</strong> 广州市番禺区清华科技园 <br>
+                                    207
+                                 </p>
+                              </li>
+                              <li>
+                                 <i class="icon-phone"></i>
+                                 <p>
+                                    <strong>QQ:</strong> 812085603
+                                 </p>
+                              </li>
+                              <li>
+                                 <i class="icon-envelope"></i>
+                                 <p>
+                                    <strong>Email:</strong><a href="mailto:berlidy10@aliyun.com">berlidy10@aliyun.com</a>
+                                 </p>
+                              </li>
+                           </ul>
+                        </div>
+                        <div class="contact-info widget">
+                           <h3 class="title">上班时间</h3>
+                           <ul>
+                              <li><i class="icon-time"> </i>星期一 - 星期五 8:30 to 5:30 </li>
+                              <li><i class="icon-time"> </i>星期六 - 9:00 to 14:00</li>
+                              <li><i class="icon-remove-circle"> </i>星期天 - 休息</li>
+                           </ul>
+                        </div>
+                        <div class="follow widget">
+                           <h3 class="title">关注我们</h3>
+                           <div class="member-social dark">
+                              <a class="facebook" href="#"><i class="icon-facebook"></i></a>
+                              <a class="twitter" href="#"><i class="icon-twitter"></i></a>
+                              <a class="dribbble" href="#"><i class="icon-dribbble"></i></a>
+                              <a class="gplus" href="#"><i class="icon-google-plus"></i></a>
+                              <a class="linkedin" href="#"><i class="icon-linkedin"></i></a>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  
+               </div>
+            </div>
+            <!-- Main Content end-->
+
+	<% include shared/footer %>
+	
+        <div class="gototop js-top">
+            <a href="#" class="js-gotop"><i class="icon-arrow-up"></i></a>
+	</div>
+	
+	</div>
+	
+  </body>
+</html> 
+ 
